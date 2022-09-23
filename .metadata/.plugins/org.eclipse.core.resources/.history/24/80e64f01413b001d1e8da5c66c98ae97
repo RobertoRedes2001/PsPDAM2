@@ -1,0 +1,25 @@
+package es.florida.tema1;
+
+import java.util.Scanner;
+
+public class AP9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Elija un numero del 1 al 12:");
+		int mes = sc.nextInt();
+		switch (mes) {
+		case 1:
+			syso;
+			break;
+		case 2:
+			instrucciones();
+			break;
+		default:
+			instrucciones();
+		}
+
+	}
+
+}

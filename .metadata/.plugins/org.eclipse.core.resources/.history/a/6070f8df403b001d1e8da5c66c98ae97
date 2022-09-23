@@ -1,0 +1,15 @@
+package es.florida.tema1;
+
+import java.util.Scanner;
+
+public class AP9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int mes = sc.nextInt();
+		
+		
+	}
+
+}

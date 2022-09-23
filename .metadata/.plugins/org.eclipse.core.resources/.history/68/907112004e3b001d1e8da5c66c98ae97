@@ -1,0 +1,22 @@
+package es.florida.tema1;
+
+import java.util.Scanner;
+
+public class AP14 {
+
+	public static double crearCirculo(double ratio) {
+		double diametro = ratio*2;
+		return diametro;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Dime unos grados centigrados: ");
+		double radio = sc.nextDouble();
+		double diametro = crearCirculo(radio);
+		System.out.println("Grados Centigrados: "+ String.format("%.3f", radio));
+		System.out.println("Grados Fahrenheit: "+ String.format("%.1f", diametro));
+	}
+
+}

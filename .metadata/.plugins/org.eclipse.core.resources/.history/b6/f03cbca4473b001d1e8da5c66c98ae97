@@ -1,0 +1,40 @@
+package es.florida.tema1;
+
+import java.util.Scanner;
+
+public class AP12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int[] notas = new int[10];
+		int[] suspensos = {};
+		int[] aprobados = {};
+		int[] notables = {};
+		int[] sobresalientes = {};
+
+		for (int i = 0; i < notas.length; i++) {
+			int anum = i+1;
+			System.out.print("Añada la nota de alumno"+"#"+anum+": ");
+			notas[i] = sc.nextInt();
+		}
+		for (int i = 0; i < notas.length; i++) {
+			if (notas[i] >= 9) {
+				sobresalientes[i] = notas[i];
+			}else if (notas[i] >= 7 ) {
+				notables[i] = notas[i];
+			}else if (notas[i] >= 5 ) {
+				aprobados[i] = notas[i];
+			}else{
+				suspensos[i] = notas[i];
+			}
+		}
+		
+		System.out.println("Suspendidos: "+suspensos);
+		System.out.println("Aprobados: "+aprobados);
+		System.out.println("Notables: "+notables);
+		System.out.println("Sobresalientes: "+sobresalientes);
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package es.florida.tema1;
+
+import java.util.Scanner;
+
+public class AP8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Elija un numero del 1 al 12:");
+		int mes = sc.nextInt();
+		
+		if(mes==1) {
+			
+		}else if(mes==2) {
+			
+		}else if(mes==3){
+			
+		}else if(mes==4){
+			
+		}else if(mes==5){
+			
+		}else if(mes==6){
+			
+		}else if(mes==7){
+			
+		}else if(mes==8){
+			
+		}else if(mes==9){
+			
+		}else if(mes==10){
+			
+		}else if(mes==11){
+			
+		}else if(mes==12) {
+			
+		}else {
+			
+		}
+		
+	}
+
+}
