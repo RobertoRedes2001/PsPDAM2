@@ -4,10 +4,32 @@ import java.util.Scanner;
 
 public class AP16 {
 
-	public static int calcularLN(int d, int m, int y) {
+	public static String[] separarNum(int num) {
+        String txNum = String.valueOf(num);
+        return txNum.split("");
+    }
+
+	public static int calcularNum(int num) {
 		
-		int ln = 0; 
-		return ln;
+		int otroNum = 0;
+		String[] arrayNum = separarNum(num);
+		for(int i=0;i<arrayNum.length;i++){
+			otroNum += Integer.parseInt(arrayNum[i]);
+		}
+
+		return otroNum;
+	}
+
+	public static int calcularLN(int n1, int n2, int n3){
+		
+		n1 = calcularNum(n1);
+		n2 = calcularNum(n2);
+		n3 = calcularNum(n3);
+		n3 = calcularNum(n3);
+		int luckyNum = n1+n2+n3;
+		luckyNum = calcularNum(luckyNum);
+
+		return luckyNum;
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,10 +38,11 @@ public class AP16 {
 		int dia = sc.nextInt();
 		System.out.print("Dime tu mes de nacimiento: ");
 		int mes = sc.nextInt();
-		System.out.print("Dime tu año de nacimiento: ");
+		System.out.print("Dime tu anyo de nacimiento: ");
 		int any = sc.nextInt();
-		
-		calcularLN(dia, mes, any);
+		int luckyNumber=calcularLN(dia, mes, any);
+		System.out.println("Tu numero de la suerte es: "+luckyNumber);
 	}
 
 }
+
