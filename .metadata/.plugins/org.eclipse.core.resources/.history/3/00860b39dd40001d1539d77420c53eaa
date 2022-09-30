@@ -1,0 +1,10 @@
+package es.florida.tema1;
+
+public class hola {
+
+	public hola() {
+		
+	}
+	
+	
+}

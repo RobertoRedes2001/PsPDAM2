@@ -1,0 +1,13 @@
+package es.florida.tema1;
+
+public class AP32 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] nombres = new String[] {"Carlos","Pepe","Alejandro", "Carmen Electra"};
+		for(int i=0;i<nombres.length;i++) {
+			System.out.println(nombres[i]);
+		}
+	}
+
+}

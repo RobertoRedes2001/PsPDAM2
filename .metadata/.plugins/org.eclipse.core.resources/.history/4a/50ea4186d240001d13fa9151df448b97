@@ -1,0 +1,16 @@
+package es.florida.tema1;
+
+public class vehiculo {
+
+	private String tipo;
+	private String marca;
+	private String modelo;
+	
+	public vehiculo(String tipo, String marca, String modelo) {
+		tipo=this.tipo;
+		marca=this.marca;
+		modelo=this.modelo;
+	}
+	
+	
+}

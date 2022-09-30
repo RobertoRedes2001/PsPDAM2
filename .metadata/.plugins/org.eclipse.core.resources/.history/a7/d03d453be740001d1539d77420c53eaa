@@ -1,0 +1,20 @@
+package es.florida.tema1;
+
+import java.util.Scanner;
+
+public class AP37 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String nom = sc.next();
+		int antiguedad = sc.nextInt();
+		
+		if(antiguedad>8) {
+			System.out.println("Analista / Arquitecto. Salario a convenir en base a rol");
+		}else {
+			System.out.println("Desarrollador Junior L1 – 15000-18000");
+		}
+	}
+
+}
