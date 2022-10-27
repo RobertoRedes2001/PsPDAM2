@@ -39,7 +39,6 @@ public class AP6 {
                     linea = br.readLine();
             }
             br.close();
-            br.close();
             fr.close();
 			
 		} catch (IOException | InterruptedException e) {

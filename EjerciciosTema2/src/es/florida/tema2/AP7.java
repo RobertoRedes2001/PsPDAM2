@@ -43,7 +43,7 @@ public static void ejecutar(int n1, int n2){
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ejecutar(3,13);
-		ejecutar(7,28);
+
 		
 		
 	}
